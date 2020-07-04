@@ -8,4 +8,5 @@ subset <- subset(power,power$Date=="1/2/2007" | power$Date =="2/2/2007")
 hist(as.numeric(subset$Global_active_power),col="Red",main="Global Active Power",xlab="Global Active Power (Kilowatts)",ylab="Frequency")
 title(main="Global Active Power")
 
+
 dev.off()
